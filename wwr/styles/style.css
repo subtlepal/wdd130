@@ -1,15 +1,17 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=PT+Serif&family=Vollkorn:ital,wght@1,700&display=swap');
 body {
     margin: 0 auto;
     max-width: 1600px;
     text-align: center;
-   }
+    background-color: #fcfbfb;
+    font-family: PT-Serif, Bitter, volkorn;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
   background {
     height: 725px;
-}
-body {
-    background-color: #fcfbfb; 
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -26,33 +28,45 @@ nav a:hover {
 }    
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }  
-.book, .join{
+.book, .join {
 background-color:rgba(13, 14, 30, 0.7);
+
+padding: 15px 30px;
+margin-top: 50px;
+border-radius: 5px;
+color: black
 }
 .book:hover, .join:hover{
     background-color:rgba(51, 83, 170, 0.7);
     text-align: center;
-    }
-
-.msg{
-    background-color:rgba(164, 167, 24, 0.7);
-    text-align: center;
-    }
-footer{
-    background-color:rgba(15, 230, 97, 0.7);
-    text-align: center;
-    }
-
-h2 {
-  text-align: center;
 }
 
+.msg{
+    text-align: center;
+    background-color: #141414;
+    line-height: 1.5em;
+    padding: 35px;
+    color: white;
+}
+footer{
+    background-color:rgba(65, 156, 100, 0.7);
+    text-align: left;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+h2 {
+  text-align: center;
+  font-family: Vollkorn, Bitter, PT_Serif;
+  margin: 0;
+}
 footer p {
     font-size: 1.2em;
 }    
@@ -60,8 +74,7 @@ footer p a:hover {
     text-decoration: underline;
 }    
 header {
-    background-color:rgba(20,30,13, .7);
-    
+    background-color:rgba(20,30,13, .7);  
 }
 hero-msg h1, hero-msg h4{
     text-decoration: underline;
@@ -72,3 +85,31 @@ hero-msg h1, hero-msg h4{
 main section{
     text-decoration: underline;
 }    
+.home-title {
+    font-family: Bitter, PT-serif, Vollkorn;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.msg p { 
+    font-size: .8em;
+    padding-bottom: 15px;
+    margin: 0;
+}
+#logo_link{   
+    padding-top: 5px;
+}
+  footer .social img{
+    padding-top: 15px;
+}
+  .virtual-card, .makeshift-card, .market-card {  
+    margin: 200px 0;
+}
+  .card-img {
+    border: 10px solid #ac6464;
+}
+main section img {
+    box-sizing: border-box;
+}
+h1, h4{
+    margin: 0;
+}
